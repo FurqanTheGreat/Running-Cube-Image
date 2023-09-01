@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0" />
+    <link href="./style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <title>Advanced CSS</title>
+</head>
+<body>
+    <!-- The First Box-->
+    <div class="first">
+        <h1>
+            Moving and Rotating Box
+        </h1>
+        <p>
+            Here, we use CSS to create a Moving and Rotating box.
+        </p>
+        </div>
+        <div class="box-1"></div>
+    <!-- The Second Box-->
+    <h1>
+        Rotating Box
+    </h1>
+    <p>
+        Here, we use CSS to create a Rotating box.<br>
+        Hover and see the transition and animation.
+    </p>
+    <div class="box"></div>
+    <!-- The Image-->
+    <img id="myImg" src="https://www.w3schools.com/css/img_lights.jpg" alt = "Northern Lights, Norway" width="300" height="200">
+    <div class="last">
+    <h1>
+        Image Modal
+    </h1>
+    <p>
+        Here, we use CSS and some JavaScript to create a modal (dialog box) that is hidden by default.<br>
+        Hover over and click the image to see the modal.
+    </p>
+    </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</body>
+</html>
