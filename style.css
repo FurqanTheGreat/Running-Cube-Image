@@ -3,7 +3,7 @@ body {
     background-color: #333;
 }
 
-h1, p, #myImg {
+h1, p, img[alt*] {
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -22,7 +22,7 @@ h1, p, #myImg {
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    background-color: #333;
+    background-color: #000000;
     transition: width 2s, height 2s, transform 2s;
     position: relative;
 }
