@@ -1,5 +1,10 @@
 /* Font */
+body {
+    background-color: #333;
+}
+
 h1, p, #myImg {
+    color: white;
     font-family: 'Raleway', sans-serif;
 }
 
