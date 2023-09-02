@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= device-width, initial-scale= 1.0" />
-    <link href="./style.css" rel="stylesheet">
+    <link href="./Advanced CSS CSS.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,30 +12,36 @@
 </head>
 <body>
     <header>
-        <h1 class="header">
+        <h1>
             The King
         </h1>
     </header>
     <!-- The First Box-->
-    <div class="first">
+    <div class="col-3 col-s-12" style="float: left;">
         <h1>
-            Moving and Rotating Box
+            Rotating Box
         </h1>
         <p>
-            Here, we use CSS to create a Moving and Rotating box.
+            Here, we use CSS to create a Rotating box.<br>
+            Hover and see the transition and animation.
         </p>
+        <div class="box"></div>
         </div>
-        <div class="box-1"></div>
+        </div>
     <!-- The Second Box-->
-    <h1>
-        Rotating Box
-    </h1>
-    <p>
-        Here, we use CSS to create a Rotating box.<br>
-        Hover and see the transition and animation.
-    </p>
-    <div class="box"></div>
+    <div class="row">
+        <div class="first col-3 col-s-12" style="float: right;">
+            <h1>
+                Moving and Rotating Box
+            </h1>
+            <p>
+                Here, we use CSS to create a Moving and Rotating box.
+            </p>
+        <div class="box-1"></div>
+        </div>
     <!-- The Image-->
+    <div class="row">
+    <div class="col-12 col-s-12">
     <img id="myImg" src="https://www.w3schools.com/css/img_lights.jpg" alt = "Northern Lights, Norway" width="300" height="200">
     <div class="last">
     <h1>
@@ -45,6 +51,8 @@
         Here, we use CSS and some JavaScript to create a modal (dialog box) that is hidden by default.<br>
         Hover over and click the image to see the modal.
     </p>
+    </div>
+    </div>
     </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
