@@ -68,6 +68,7 @@ header {
     color: #FFFFFF;
 }
 h1, p {
+    z-index: -1;
     text-align: center;
     font-weight: 400;
     color: #FFFFFF;
