@@ -1,6 +1,8 @@
 /* Font */
 body {
-  background-color: #333;
+  background-image: url(https://w7.pngwing.com/pngs/564/177/png-transparent-galaxy-view-htc-windows-mobile-6-5-smartphone-telephone-user-guide-space-free-miscellaneous-atmosphere-computer-wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
